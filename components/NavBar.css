@@ -1,0 +1,18 @@
+.Navigation {
+    display: flex;
+
+    background-color: #80008b;
+    font-size: 22px;
+    border-radius: 22px;
+    justify-content: center;
+}
+
+ul {
+    list-style: none; }
+    ul li {
+    padding: 15px;
+    display: inline-block; }
+    ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff; }
