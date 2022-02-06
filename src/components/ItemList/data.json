@@ -1,0 +1,29 @@
+[{
+  "idNumber": 1,
+  "name": "Prohibition Lager",
+  "id": "1_Prohibition Lager",
+  "detail": "Cerveza rubia, poco lupulada, liviana.",
+  "avatar": "https://imgur.com/gNBLJcs.png",
+  "price": "$350.00"
+}, {
+  "idNumber": 2,
+  "name": "Roto para Descocido",
+  "id": "2_Roto para Descocido",
+  "detail": "Cerveza roja, citrica, refrescante.",
+  "avatar": "https://imgur.com/gNBLJcs.png",
+  "price": "$350.00"
+}, {
+  "idNumber": 3,
+  "name": "Vienna Lager",
+  "id": "3_Vienna Lager",
+  "detail": "Cerveza rubia, liviana, refrescante.",
+  "avatar": "https://imgur.com/gNBLJcs.png",
+  "price": "$380.00"
+}, {
+  "idNumber": 4,
+  "name": "Sueños Revoltosos",
+  "id": "4_Sueños Revoltosos",
+  "detail": "Cerveza de frambuesa poco amargor.",
+  "avatar": "https://imgur.com/gNBLJcs.png",
+  "price": "$360.00"
+}]
