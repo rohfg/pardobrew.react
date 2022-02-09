@@ -1,0 +1,84 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  .container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-family: sans-serif;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .itemListContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    grid-gap: 3rem 0.5rem;
+    justify-content: center;
+  }
+  .itemDetailContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    margin-bottom: 1rem;
+  }
+  p {
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+  }
+  a {
+    background: #92c800;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+  }
+  button::focus {
+    border-color: #4d4d4d;
+  }
+  .increment {
+    padding: 0.5rem;
+    background: rgb(95, 122, 124);
+    text-align: center;
+    
+  }
+  .item {
+    background-color: rgb(83, 0, 139);
+    padding: 1.5rem;
+    border-radius: 5px;
+    color: white;
+  }
+  .avatarName {
+    margin-bottom: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  
+    align-items: center;
+    align-content: center;
+  }
+  .avatarName h2 {
+    margin-bottom: 0;
+    font-size: medium;
+    color: wheat;
+  }
+  .avatarName img {
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
